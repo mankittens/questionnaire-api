@@ -1,18 +1,18 @@
 ## Endpoints
 
-This API supports the following REST call.
+This API supports the following REST calls.
 
 ### Questionnaire
 
-GET /questionnaire/:id -- get a questionnaire
-DELETE /questionnaire/:id -- delete a questionnaire
+GET /questionnaire/:id -- read questionnaire
+DELETE /questionnaire/:id -- delete questionnaire
 POST /questionnaire -- create new questionnaire
 PUT /questionnaire/:id -- update questionnaire
 
 ### Response
 
-GET /response/:id -- get a Response
-GET /response/s/for/:id -- get all responses with `for` property equal to `:id` (of a particular questionnaire)
-DELETE /response/:id -- delete a response
+GET /response/:id -- read response
+GET /response/s/for/:id -- read all responses with `for` property equal to `:id` (of a particular questionnaire)
+DELETE /response/:id -- delete response
 POST /response -- create new response
 PUT /response/:id -- update response
