@@ -1,4 +1,4 @@
-const Questionnaire = require('../models/Questionnaire')
+const Questionnaire = require('../models/questionnaire')
 
 function createQuestionnaire(req, res, next) {
   const questionnaire = new Questionnaire(req.body)
